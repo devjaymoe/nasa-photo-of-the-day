@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Inter', sans-serif;;
+}
+
+p {
+  font-family: 'Baloo Chettan 2', cursive;
 }

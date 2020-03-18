@@ -1,0 +1,27 @@
+nav {
+    display:flex;
+    justify-content: space-evenly;
+    background: linear-gradient(0deg, rgba(225,244,243,1) 0%, rgba(112,108,97,1) 50%, rgba(50,50,50,1) 90%);
+}
+
+nav p {
+    color: #ffffff;
+}
+
+.pic-info {
+    background-color: #706c61;
+    text-align: justify;
+    padding: 3%;
+}
+
+.pic-info p {
+    color: #e1f4f3;
+}
+
+.potd-title {
+    display: flex;
+    background-color: #e1f4f3;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
