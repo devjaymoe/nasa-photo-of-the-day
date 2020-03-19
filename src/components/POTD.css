@@ -4,8 +4,18 @@ nav {
     background: linear-gradient(0deg, rgba(225,244,243,1) 0%, rgba(112,108,97,1) 50%, rgba(50,50,50,1) 90%);
 }
 
-nav p {
+nav p, nav form {
     color: #ffffff;
+}
+
+nav form {
+    display:flex;
+    align-items: center;
+    width: 300px;
+}
+
+label {
+    margin-right: 2%;
 }
 
 .pic-info {
@@ -25,6 +35,3 @@ nav p {
     align-items: center;
 }
 
-.POTD-img img {
-
-}

@@ -21,15 +21,6 @@ const POTD = () => {
         .catch(err => console.log(err));
     }, [])
 
-    const PicDate = (date) => {
-        useEffect(() => {
-            axios.get(`https://api.nasa.gov/planetary/apod?api_key=wngNLHYHjVOhyQrFEzPlFrZi0wyo4spTSFsWkK1H&date=${date}`)
-            .then(res => {
-                setPic(res.date)
-            })
-            .catch(err => console.log(err))
-        }, [])
-    }
     return (
         <>
         <Nav />
